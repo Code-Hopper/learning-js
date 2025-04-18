@@ -72,6 +72,7 @@ document.write(intro + my_name + ". " + string1 + " " +age + " and " + what_i_do
 // console.log(window.prompt("enter your name !"))
 
 let username = " i'm " +  prompt("Enter your name !")
+
 let userage = prompt("Enter your age !")
 
 console.log(intro + username + ". " + string1 + " " + userage + " and " + what_i_do )
