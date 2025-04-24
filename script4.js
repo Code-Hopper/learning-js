@@ -101,16 +101,16 @@
 
 // condition ? true block : false block 
 
-let a = 15
-let b = 10
-let c = 10
+// let a = 15
+// let b = 10
+// let c = 10
 
 // a > b ? console.log("a is greatest !") : console.log("not greatest !")
 
 // wap is js to check entred year is leap year or not 
 
-if(((a > b) && (a > c))){
-    console.log("a is greatest of all")
-}else{
-    console.log("a is not greatest")
-}
+// if(((a > b) && (a > c))){
+//     console.log("a is greatest of all")
+// }else{
+//     console.log("a is not greatest")
+// }
