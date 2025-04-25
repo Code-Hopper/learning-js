@@ -107,3 +107,86 @@
 // forEeach, for of, filter, map (Array) 
 
 // for in (object)
+
+// topics
+
+// working (client side / server side) & history
+
+// interpreter 
+
+// syntax : variable
+
+// scope (var, let, const)
+
+// naming rules for a variables
+
+// data types
+
+// primitive and non-primitive
+
+// number, string, boolean, null, undefined, NaN
+
+// objects, js-object (math, date), array,
+
+// "123" -> 123
+
+// "123A" -> NaN (Not a nunber)
+
+// let data = null
+
+// let data;
+
+// let data = 123
+
+// data = 456
+
+// oprators
+// airthmatic (+ - / * %), assignment ( =, +=,-=,*=,/=,%= ), increement/dcreement (++(+1), --(-1) | post, pre), comparision (< > <= >= != == ===), logical (&& , ||), bitwise (AND, OR), ternary ( ternary statements | ? )
+
+// type casting
+// number -> string
+// number -> boolean
+// string -> number
+// string -> boolean
+// boolean -> string
+// boolean -> number
+
+// let data = 10
+
+// data = data + 5
+
+// data += 5
+
+// data -= 5
+// data *= 5
+// data /= 5
+// data %= 5
+
+// data++/-- (post)
+// ++/--data (pre)
+
+// let x = 10
+
+// let y = x++
+// let y = ++x
+
+// let y = x--
+// let y = --x
+
+// console.log(y)
+
+// console.log(x)
+
+// ternary statement syntax
+// condition ? if true : if false
+
+// if, if-else, if-elseif , nasted if, switch case, ternary statement
+
+// looping statement
+
+// while loop
+
+
+// concatenation (joining 2 or more strings)
+
+// console.log("hello " + "world")
