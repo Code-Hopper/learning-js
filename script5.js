@@ -191,8 +191,8 @@
 
 // console.log("hello " + "world")
 
-let value = 10
-let value2 = 20
+// let value = 10
+// let value2 = 20
 
 // let datatype = typeof(value)
 
@@ -210,30 +210,80 @@ let value2 = 20
 
 // console.log(value)
 
-console.log(value + value2)
+// console.log(value + value2)
 
-// string + number = string(concatenated)
-// string + string = string(concatenated)
-// number + string = string(concatenated)
+// // string + number = string(concatenated)
+// // string + string = string(concatenated)
+// // number + string = string(concatenated)
 
-// number + number = nunber
+// // number + number = nunber
 
-Number
-Boolean
+// Number
+// Boolean
 
-// int / float
+// // int / float
 
-let number = 10.999999
+// let number = 10.999999
 
-console.log(number)
+// console.log(number)
 
-// number -> integer | 10.99999 -> 10
+// // number -> integer | 10.99999 -> 10
 
-number = parseInt(number)
+// number = parseInt(number)
 
-console.log(number)
-console.log(typeof(number))
+// console.log(number)
+// console.log(typeof(number))
 
 
 // parseInt()
-// parseFloat()/
+// parseFloat()
+
+// do_while
+
+// do{
+
+    // code 
+    // updation
+
+// }while(condition)
+
+// let number = 0
+
+// do{
+//     console.log(number)
+//     number++
+// }while(number < 10)
+
+// let choice = false
+
+// do{
+    
+//     console.log("welcome")
+
+//     choice = window.confirm("do you wish to continue")
+
+// }while(choice == true)
+
+// console.log("program completed !")
+
+// task 
+
+// take numbers(2) as user input and perform airthmatics oprations
+
+// greater of 2 / 3 / 4 | try using logical oprators.
+
+// make 3 menu driven program (switch case)
+
+// leap year logic using conditional statement | year must be user input
+
+// grading based on marks using conditional statement 
+
+// conditional statement by your choice with ternary oprator.
+
+// create number list (numbers from a range | odd, even, multiple of 3)
+
+// count using while loop (no. of leap years from a range)
+
+// factorial , sun of digits, armstrong number using while loop 
+
+// do you wish to continue using do-while
