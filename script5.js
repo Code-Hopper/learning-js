@@ -190,3 +190,50 @@
 // concatenation (joining 2 or more strings)
 
 // console.log("hello " + "world")
+
+let value = 10
+let value2 = 20
+
+// let datatype = typeof(value)
+
+// console.log(datatype)
+
+// console.log(typeof (value))
+
+// console.log(value)
+
+// // type cast number -> string
+
+// value = String(value)
+
+// console.log(typeof (value))
+
+// console.log(value)
+
+console.log(value + value2)
+
+// string + number = string(concatenated)
+// string + string = string(concatenated)
+// number + string = string(concatenated)
+
+// number + number = nunber
+
+Number
+Boolean
+
+// int / float
+
+let number = 10.999999
+
+console.log(number)
+
+// number -> integer | 10.99999 -> 10
+
+number = parseInt(number)
+
+console.log(number)
+console.log(typeof(number))
+
+
+// parseInt()
+// parseFloat()/
