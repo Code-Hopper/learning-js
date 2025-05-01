@@ -13,11 +13,11 @@
 // ^ - starting of string 
 // $ - ending of string
 
-let pattern = /^(?!\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,10}$/
+// let pattern = /^(?!\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,10}$/
 
-let string = "Hello1234asdasd"
+// let string = "Hello1234asdasd"
 
-console.log(pattern.test(string))
+// console.log(pattern.test(string))
 
 
 // /(?=.*[a-z])/.test("hello") - > true
