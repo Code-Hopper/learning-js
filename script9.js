@@ -323,17 +323,17 @@ console.log(students)
 
 // sorting
 
-// let numbers = [1, 3, 2, 4, 5, 7, 9, 8, 10]
+let numbers = [1, 3, 2, 4, 5, 7, 9, 8, 10]
 
-// // Array.sort((next, prev)=>{ return prev - next })
-
-// // numbers.sort((next, prev) => {
-// //     return next - prev
-// // })
+// Array.sort((next, prev)=>{ return prev - next })
 
 // numbers.sort((next, prev) => {
-//     return prev - next
+//     return next - prev
 // })
 
+numbers.sort((next, prev) => {
+    return prev - next
+})
 
-// console.log(numbers)
+
+console.log(numbers)
