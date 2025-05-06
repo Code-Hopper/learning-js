@@ -1,2 +1,0 @@
-// js object
-console.log()
