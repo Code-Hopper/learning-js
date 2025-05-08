@@ -5,7 +5,7 @@
 
 // syntax for date objects
 
-let date = new Date()
+// let date = new Date()
 
 // setter / getter
 
@@ -37,17 +37,17 @@ let date = new Date()
 // console.log(date.toLocaleDateString())
 // console.log(date.toLocaleTimeString())
 
-let date1 = new Date("2025-05-25")
+// let date1 = new Date("2025-05-25")
 
-let date2 = new Date("2025-05-07")
-// creating custom date using contructor methods/function
+// let date2 = new Date("2025-05-07")
+// // creating custom date using contructor methods/function
 
-// yyyy-mm-dd
+// // yyyy-mm-dd
 
-if(date1.getTime() < date2.getTime()){
-    console.log("date 2 is latest !")
-    console.log(date2.toLocaleDateString())
-}else{
-    console.log("date 1 is latest !")
-    console.log(date1.toLocaleDateString())
-}
+// if(date1.getTime() < date2.getTime()){
+//     console.log("date 2 is latest !")
+//     console.log(date2.toLocaleDateString())
+// }else{
+//     console.log("date 1 is latest !")
+//     console.log(date1.toLocaleDateString())
+// }
