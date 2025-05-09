@@ -57,3 +57,10 @@
 // // Math.pow(number, power)
 
 // console.log(Math.pow(8,3))
+
+// yyyy-mm-dd
+console.log(Math.floor(((Math.random() * 6)+1)))
+console.log(Math.floor(((Math.random() * 6)+1)))
+console.log(Math.floor(((Math.random() * 6)+1)))
+console.log(Math.floor(((Math.random() * 6)+1)))
+console.log(Math.floor(((Math.random() * 6)+1)))
