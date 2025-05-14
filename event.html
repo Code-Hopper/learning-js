@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #element1,
+        #element2,
+        #element3,
+        #element4 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 1rem;
+            color: white;
+            font-size: 3rem;
+            position: relative;
+        }
+
+        #block {
+            background-color: yellow;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+
+        .controller{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            z-index: 10;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div id="element1">
+
+        <div id="block"></div>
+
+        <div class="controller">
+            <button id="p">+</button>
+            <button id="n">-</button>
+        </div>
+    </div>
+    <div id="element2"> element2 </div>
+    <div id="element3"> element3 </div>
+    <div id="element4"> element4 </div>
+    <div id="element5">
+        <form action="">
+            <input type="text">
+        </form>
+    </div>
+</body>
+
+<script src="./event.js"></script>
+
+</html>

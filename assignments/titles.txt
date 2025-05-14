@@ -1,0 +1,4 @@
+1.create a age calculator
+
+step 1 : to create a form 
+step 2 : to add a submit event 
