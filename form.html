@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #pop-up{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 0 0 0 100vh rgba(0,0,0,0.5);
+            display: none;
+            color: white;
+        }
+
+        #pop-up > .header{
+            background-color: red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form id="form">
+        <input type="text" placeholder="enter name !" name="name" required>
+        <input type="date" placeholder="enter dob !" name="date" required>
+        <button type="submit">submit</button>
+    </form>
+
+    <div id="pop-up">
+        <div class="header">
+            <h1>welcome</h1>
+            <button id="close-pop-up">close</button>
+        </div>
+        <div> 
+            <span id="welcome">welcome</span>
+        </div>
+    </div>
+
+    <table id="table" border="1">
+        <tr></tr>
+    </table>
+
+</body>
+
+<script type="text/javascript">
+
+    let students = []
+
+    let popUp = document.getElementById("pop-up")
+
+    let welcomeField = document.getElementById("welcome")
+
+    let form = document.getElementById("form")
+
+    let closeBtn = document.getElementById("close-pop-up")
+
+    closeBtn.addEventListener("click",()=>{
+        popUp.style.display = "none"
+    })
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault()
+        console.log(event)
+        // let input1 = event.target[0]
+        // let input2 = event.target[1]
+
+        let [name, dob] = event.target
+
+        console.log(name.value)
+        console.log(dob.value)
+
+        let student = {
+            name: name.value,
+            dob: dob.value
+        }
+
+        students.push(student)
+
+        popUp.style.display = "initial"
+
+        welcomeField.innerText = `welcome ! ${name.value}`
+
+        displayStudents()
+
+    })
+
+    function displayStudents() {
+
+        let table = document.getElementById("table")
+
+        let rows = document.querySelectorAll("table > tr")
+
+        for (let i = 0; i < rows.length; i++) {
+            table.removeChild(rows[i])
+        }
+
+
+        students.forEach(student => {
+            let newRow = document.createElement("tr")
+
+            newRow.innerHTML = `<td>${student.name}</td><td>${student.dob}</td>`
+
+            table.appendChild(newRow)
+        })
+    }
+
+</script>
+
+</html>

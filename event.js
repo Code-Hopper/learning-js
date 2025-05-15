@@ -71,6 +71,8 @@ document.addEventListener("keypress", (event) => {
 
 })
 
+// window.addEventListener("unlaod"))
+
 // element2.addEventListener("dblclick",()=>{
 //     console.log('double click has occured !')
 // })
