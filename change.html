@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="date" name="data" id="date">
+
+</body>
+
+<script>
+
+    let userDateInput = document.querySelector("#date")
+
+
+    let userDob = null
+
+    userDateInput.addEventListener("change", (event) => {
+        data = event.target.value
+        console.log(`user dob is ${data}!`)
+
+        calculateAge(data)
+
+    })
+
+    function calculateAge(dob) {
+
+        let userdob = new Date(dob)
+
+        let current = new Date()
+
+        let years = current.getFullYear() - userdob.getFullYear()
+
+        let days  = (((((current.getTime()-userdob.getTime())/1000)/60)/60)/24)
+
+        console.log(`user is ${years} years old!`)
+        console.log(`user is ${days} days old!`)
+
+    }
+
+    //    current 1747353600000
+
+    //    userdob 1021075200000
+
+
+</script>
+
+</html>
