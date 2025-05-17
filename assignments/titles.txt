@@ -1,4 +1,45 @@
 1.create a age calculator
 
-step 1 : to create a form 
-step 2 : to add a submit event 
+step 1 : to create a hmtl form.
+step 2 : to add a submit event.
+step 3 : to read date from input.
+step 4 : to create dob date object and current date object.
+step 5 : to calculate years , months and days from dob till now.
+
+if months is greater than 12 then year++ | month = 0
+if current is less than dob month then year--
+
+find out logic to date
+
+`user is ${years} years, ${months} months, ${days} days old`.
+
+step 6 : to display the above string in document
+
+use innerHTML, innerText to change content from a HTML element
+
+
+2.create a age calculator
+
+step 1 : to create a hmtl input.
+step 2 : to add a input event.
+step 3 : to read date from input.
+step 4 : to create dob date object and current date object.
+step 5 : to calculate years , months and days from dob till now.
+
+if months is greater than 12 then year++ | month = 0
+if current is less than dob month then year--
+
+find out logic to date
+
+`user is ${years} years, ${months} months, ${days} days old`.
+
+step 6 : to display the above string in document
+
+use innerHTML, innerText to change content from a HTML element
+
+3.create a pop up using js 
+
+step 1 : to create a hmtl element.
+step 2 : display none initially.
+step 3 : change display property on button click.
+step 4 : add close button to pop-up container.
