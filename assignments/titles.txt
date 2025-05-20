@@ -43,3 +43,11 @@ step 1 : to create a hmtl element.
 step 2 : display none initially.
 step 3 : change display property on button click.
 step 4 : add close button to pop-up container.
+
+4. to create a table using js append it to the body
+
+step 1 : to create table and append to body 
+step 2 : using a array to map row creation
+step 3 : to assign unique id to each row
+step 4 : add an event listner to each delete button of row
+step 5 : query document based on row-id and removeChild | style.display = "none"

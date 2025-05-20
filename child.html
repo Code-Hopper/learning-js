@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .first {
+            background-color: blue !important;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>This is some Heading</h1>
+
+    <div class="container">
+        <div></div>
+    </div>
+
+    <table border="1">
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+        </tr>
+    </table>
+
+    <!-- create, append and remove -->
+
+</body>
+
+<script type="text/javascript">
+
+    // let element = document.createElement("h2")
+
+    // element.innerText = "this is some heading created using js"
+    // element.style.color = 'red'
+    // element.classList = 'first'
+
+    // let parent = document.querySelector('.container > div')
+
+    // parent.appendChild(element)
+
+
+    // let table_parent = document.querySelector("table > tbody")
+
+    // // parent.removeChild(element)
+
+    // let rows = document.querySelectorAll("tr")
+
+    // console.log(rows)
+
+    // rows.forEach((row, index) => { 
+    //     if(index > 1) table_parent.removeChild(row)
+    // })
+
+    let students = [
+        {
+            name: "student 1",
+            rol: 1
+        },
+        {
+            name: "student 2",
+            rol: 2
+        },
+        {
+            name: "student 3",
+            rol: 3
+        },
+        {
+            name: "student 4",
+            rol: 4
+        },
+        {
+            name: "student 5",
+            rol: 5
+        }, {
+            name: "student 6",
+            rol: 6
+        }
+    ]
+
+
+
+    let table = document.createElement("table")
+
+    table.setAttribute("border", "1")
+
+    let tbody = document.createElement("tbody")
+
+    table.appendChild(tbody)
+
+    students.forEach((student, index) => {
+
+
+        let row = document.createElement("tr")
+
+        row.id = `row-${index+1}`
+
+        row.innerHTML = `<td>${student.name}</td><td>${student.rol}</td><td><button class='deletebtn' id='delete-id-${index+1}'>delete</button></td>`
+
+        tbody.appendChild(row)
+
+    })
+
+    document.querySelector("body").appendChild(table)
+
+    let deleteButtons = document.querySelectorAll(".deletebtn")
+    console.log(deleteButtons)
+
+    deleteButtons.forEach((button)=>{
+        button.addEventListener("click",(event)=>{
+            console.log(event.target.id)
+        })
+    })
+
+</script>
+
+</html>
