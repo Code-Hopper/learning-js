@@ -18,7 +18,7 @@ step 6 : to display the above string in document
 use innerHTML, innerText to change content from a HTML element
 
 
-2.create a age calculator
+2.Create a age calculator
 
 step 1 : to create a hmtl input.
 step 2 : to add a input event.
@@ -37,17 +37,52 @@ step 6 : to display the above string in document
 
 use innerHTML, innerText to change content from a HTML element
 
-3.create a pop up using js 
+3. Create a pop up using js 
 
 step 1 : to create a hmtl element.
 step 2 : display none initially.
 step 3 : change display property on button click.
 step 4 : add close button to pop-up container.
 
-4. to create a table using js append it to the body
+4. To create a table using js append it to the body
 
 step 1 : to create table and append to body 
 step 2 : using a array to map row creation
 step 3 : to assign unique id to each row
 step 4 : add an event listner to each delete button of row
 step 5 : query document based on row-id and removeChild | style.display = "none"
+
+5. git cli
+
+step 1: Download git scm
+step 2: config git into your local system
+	cmd 1 : git config --global user.name "Mona Lisa"
+	cmd 2 : git config --global user.email "MonaLisa@example.com"
+step 3: git init
+	you have init a empty git repo/directory/folder
+	
+file flag | U - untracked | M - modified | A- tracked/added | D- deleted
+
+step 4 : to stage a file
+git add file_name
+`
+step 4.5 : we can check what files are doing | status
+git status
+
+step 5 : now save/commit/take photo of staged file/s
+git commit -m "message"
+
+step 5.5 : to check commits/photos 
+git log
+
+step 6 : to rollback at a certain version 
+
+git reset --hard [commit_id]
+
+step 7 : to create a link a remote repo to a local repo
+	git remote add origin url
+	to check
+	git remote -v
+
+step 8 : to push commit into our remote repo
+	cmd : git push origin master
