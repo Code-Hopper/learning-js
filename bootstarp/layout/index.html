@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+
+</head>
+
+<body>
+    <div class="container-fluid bg-primary text-white d-block d-sm-none">
+        <div class="container bg-danger">
+            this is some container
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            this is some other element
+        </div>
+    </div>
+    <!-- we can divide a row into 12 cols -->
+    <!-- 12/no. of cols -->
+    <div class="container-fluid">
+        <div class="container d-flex gap-2 flex-column">
+            <div class="row gap-2 text-white">
+                <div class="col-12 col-md-6 bg-danger">
+                    <span>column 1</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 2</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 3</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 4</span>
+                </div>
+                <!-- <div class="col bg-danger">
+                    <span>column 3</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 4</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 6</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 7</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 8</span>
+                </div>
+                <div class="col bg-danger">
+                    <span>column 9</span>
+                </div> -->
+            </div>
+            <div class="row gap-2">
+                <div class="col bg-success">column 1</div>
+                <div class="col bg-success">column 2</div>
+                <div class="col bg-success">column 3</div>
+            </div>
+            <div class="row gap-2">
+                <div class="col-12 bg-warning">column 1</div>
+                <div class="col-2 bg-warning">column 2</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table table-warning table-striped-columns table-hover">
+            <thead>
+                <tr class="table-primary">
+                    <th class="bg-black text-white">cell 1</th>
+                    <th>cell 2</th>
+                    <th>cell 3</th>
+                    <th>cell 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>cell 1</td>
+                    <td>cell 2</td>
+                    <td>cell 3</td>
+                    <td>cell 4</td>
+                </tr>
+                <tr>
+                    <td>cell 1</td>
+                    <td>cell 2</td>
+                    <td>cell 3</td>
+                    <td>cell 4</td>
+                </tr>
+                <tr>
+                    <td>cell 1</td>
+                    <td>cell 2</td>
+                    <td>cell 3</td>
+                    <td>cell 4</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- break | sm(tablet and desktop) , md (desktop), lg(above desktop)-->
+
+    <!-- class-bp-value -->
+
+    <div id="element1" class="bg-danger" style="height: 500px; width: 500px;" data-amey="this is some value" data-bs-toggle="dropdown">    
+        <img src="./media/77677.jpg" class="img-fluid" alt="">
+    </div>
+
+</body>
+
+<script type="text/javascript">
+
+    let element1 = document.getElementById("element1");
+
+    console.log(element1.dataset);
+
+</script>
+
+</html>
