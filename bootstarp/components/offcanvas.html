@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+
+    <!-- <link rel="stylesheet" href="../bootstrap-5/js/bootstrap.bundle.min.js"> -->
+
+    <script src="../bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- trigger -->
+    <button class="btn btn-primary fw-bold m-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1">
+        open offcanvas
+    </button>
+
+    <!-- target -->
+    <div class="offcanvas offcanvas-start show" data-bs-backdrop="backdrop" id="offcanvas1">
+        <div class="offcanvas-header bg-dark text-light d-flex justify-content-between">
+            <span class="fw-bolder fs-2">This Is Header</span>
+            <button class="btn btn-danger" data-bs-dismiss="offcanvas">
+                close
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            offcanvas content
+        </div>
+    </div>
+
+</body>
+
+</html>
