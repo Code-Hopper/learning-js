@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="../bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- trigger -->
+    <button class="btn btn-primary fw-bolder m-5" data-bs-toggle="modal" data-bs-target="#modal1">
+        open modal
+    </button>
+
+    <!-- target -->
+    <div class="modal fade" id="modal1" data-bs-backdrop="static">
+
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header d-flex justify-content-between">
+                    <span class="fw-bolder">Welcome</span>
+                    <button class="btn text-light" data-bs-dismiss="modal">
+                        <span class="fa-solid fa-xmark"></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="d-flex flex-column gap-3" action="">
+                        <input class="form-control" type="text" placeholder="enter name">
+                        <input class="form-control" type="tel" placeholder="enter phone">
+                        <input class="form-control" type="text" placeholder="enter email">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success fw-bolder">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

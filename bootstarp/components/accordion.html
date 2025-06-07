@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+
+    <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css">
+
+    <script src="../bootstrap-5/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Accordion</h1>
+
+        <div class="accordion" id="ac1">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#body1">
+                        this is accordion 1
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse show" id="body1" data-bs-parent="#ac1">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus necessitatibus ut corporis
+                        reprehenderit suscipit quae distinctio saepe aspernatur quasi, architecto animi nemo id dolorum
+                        commodi minus. Aperiam sit perspiciatis rerum.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#body2">
+                        this is accordion 2
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="body2" data-bs-parent="#ac1">
+
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus necessitatibus ut corporis
+                        reprehenderit suscipit quae distinctio saepe aspernatur quasi, architecto animi nemo id dolorum
+                        commodi minus. Aperiam sit perspiciatis rerum.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#body3">
+                        this is accordion 3
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="body3" data-bs-parent="#ac1">
+
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus necessitatibus ut corporis
+                        reprehenderit suscipit quae distinctio saepe aspernatur quasi, architecto animi nemo id dolorum
+                        commodi minus. Aperiam sit perspiciatis rerum.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#body4">
+                        this is accordion 4
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="body4" data-bs-parent="#ac1">
+
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus necessitatibus ut corporis
+                        reprehenderit suscipit quae distinctio saepe aspernatur quasi, architecto animi nemo id dolorum
+                        commodi minus. Aperiam sit perspiciatis rerum.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#body5">
+                        this is accordion 5
+                    </button>
+                </div>
+                <div class="collapse accordion-collapse" id="body5" data-bs-parent="#ac1">
+
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus necessitatibus ut corporis
+                        reprehenderit suscipit quae distinctio saepe aspernatur quasi, architecto animi nemo id dolorum
+                        commodi minus. Aperiam sit perspiciatis rerum.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
